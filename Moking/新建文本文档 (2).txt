@@ -1,0 +1,13 @@
+打开 超快 较快 一般 较慢 
+播放 流畅 良好 微卡
+广告 无 
+稳定程度 不稳定
+
+<script>
+var fillseo_window=window.frames["player"];
+fillseo_window.window.alert=function(){
+alert("广告弹窗屏蔽");
+//NO AD
+};
+</script>
+        
