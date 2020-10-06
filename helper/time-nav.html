@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Lanky Local Time - V1.0</title>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/Lanky6/CDN/Lanky/helper/js/jquery.min.js"></script>
+<script type="text/javascript"  src="https://cdn.jsdelivr.net/gh/Lanky6/CDN/Lanky/helper/js/class.main.js" ></script>
+<style>
+	a {
+		text-decoration-line: none;
+	}
+span {
+  margin: 0;
+  padding: 0;
+}
+
+#clock {
+  font-family: 'Share Tech Mono', monospace;
+  color: #FFFFFF;
+  text-align: left;
+  color: #4E4E4E;
+}
+#clock .time {
+  letter-spacing: 0.05em;
+  font-size: 10px;
+  padding: 5px 0;
+	font-weight: bold;
+}
+#clock .date {
+  letter-spacing: 0.1em;
+  font-size: 15px;
+}
+#clock .text {
+  letter-spacing: 0.1em;
+  font-size: 10px;
+  padding: 20px 0 0;
+  font-weight: bold;
+}
+	.local {
+	letter-spacing: 0.1em;
+	font-size: 10px;
+	padding: 20px 0 0;
+	font-weight: bold;
+	}
+</style>
+</head>
+<body>
+<div>
+<a href="https://wannianli.tianqi.com/" target="_blank" title="万年历">
+<div id="clock">
+<div id="main"></div>
+<span class="date"></span>
+<span class="local">Local:</span>
+<span class="time" id="time">Time</span><br>
+<span class="text" id="text">Date</span>
+<span id="sitetime"> </span><br><br>
+</div>
+</a>
+</div>
+    
+<script>
+var week = ['Sun', 'Mon', 'Tue', 'Wed', 'Thur', 'Fri', 'Sat'];
+var timerID = setInterval(updateTime, 1000);
+var sitetime="1999/01/01 00:00:00";
+updateTime();
+function updateTime() {
+    var cd = new Date();
+    $('#time').text(zeroPadding(cd.getHours(), 2) + ':' + zeroPadding(cd.getMinutes(), 2) + ':' + zeroPadding(cd.getSeconds(), 2));
+    $('#text').text(zeroPadding(cd.getFullYear(), 4) + '-' + zeroPadding(cd.getMonth()+1, 2) + '-' + zeroPadding(cd.getDate(), 2) + ' ' + week[cd.getDay()]);
+    SiteTime(sitetime);
+};
+
+function zeroPadding(num, digit) {
+    var zero = '';
+    for(var i = 0; i < digit; i++) {
+        zero += '0';
+    }
+    return (zero + num).slice(-digit);
+}
+
+function SiteTime(time){
+var seconds =1000;
+var minutes = seconds *60;
+var hours = minutes *60;
+var days = hours *24;
+var years = days *365;
+var dateBegin = new Date(time.replace(/-/g, "/"));
+var dateEnd = new Date();
+var diff = dateEnd.getTime() - dateBegin.getTime();
+var diffYears =Math.floor(diff/years);
+var diffDays =Math.floor((diff/days)-diffYears*365);
+var diffHours =Math.floor((diff-(diffYears*365+diffDays)*days)/hours);
+var diffMinutes =Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours)/minutes);
+}
+</script>
+</body>
+</html>
