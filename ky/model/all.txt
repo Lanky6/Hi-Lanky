@@ -1,0 +1,19 @@
+			<h3 id="xxx"> <span>XXX</span></h3>
+		<div class="link-main">
+		<h4>YYY</h4>
+		<div class="linkbox">
+		<ul class="links clearfix">
+			<li><a href="" target="_blank"></a></li>
+			<li><a href="" target="_blank"></a></li>
+			<li><a href="" target="_blank"></a></li>
+			<li><a href="" target="_blank"></a></li>
+			<li><a href="" target="_blank"></a></li>
+			<li><a href="" target="_blank"></a></li>
+			<li><a href="" target="_blank"></a></li>
+			<li><a href="" target="_blank"></a></li>
+			<li><a href="" target="_blank"></a></li>
+			<li><a href="" target="_blank"></a></li>
+			<li><a href="" target="_blank"></a></li>
+			</ul>
+		</div>
+	</div>

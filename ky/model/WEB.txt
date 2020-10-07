@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="zh-cn">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1,user-scalable=0">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta name="renderer" content="webkit">
+<title>蓝奇导航 - 加速科学上网冲浪</title>
+<meta name="keywords" content="网址导航">
+<meta name="description" content="看世界用蓝奇导航，加速科学上网冲浪。">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+<link href="https://cdn.jsdelivr.net/gh/DK01689/CDN@master/Lanky/css/basic.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/DK01689/CDN/Lanky/img/favicon.ico">
+	<style type="text/css">
+	.page { 
+		width:100%;
+		background:url(https://cdn.jsdelivr.net/gh/DK01689/CDN@master/Lanky/img/background.jpg) repeat-x;
+		box-shadow:none;
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-position:center center;
+		background-attachment:fixed;
+		position:relative;
+		-webkit-background-size:cover !important;
+		-moz-background-size:cover !important;
+		-o-background-size:cover;
+		background-size:100% 99.9%;
+		}
+	</style>
+	<script>if (top.location != self.location) {top.location=self.location;}</script>
+</head>
+
+<body ondragstart="window.event.returnValue=false" oncontextmenu="window.event.returnValue=false" onselectstart="event.returnValue=false">
+<script src="https://cdn.jsdelivr.net/gh/DK01689/CDN@master/Lanky/js/ua-pc.js" type="text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/gh/DK01689/CDN/Lanky/js/jquery.min_v1.0.js" type="text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/gh/DK01689/CDN/Lanky/js/sidemenu.js" type="text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/gh/DK01689/CDN@master/Lanky/helper/js/up.js" type="text/javascript"></script>
+<div class="page">
+	<div id="menu">
+	<div id="header" class="header">
+		<div class="logo"><a href="https://lanky.top/"><img src="https://cdn.jsdelivr.net/gh/DK01689/CDN/Lanky/img/logo.png" alt="蓝奇导航"></a></div>
+		<div class="time"><iframe src="https://go.lanky.top/helper/time-nav" width="220" height="70" frameborder="0"></iframe></div>
+		<span class="languagea"><embed src="https://cdn.jsdelivr.net/gh/DK01689/CDN@master/Lanky/img/earth.svg" viewBox="0 0 660 342"><a> 中 </a>/<a href="https://lanky.top/en-us/"> EN</a></span>
+		<ul class="link">
+		<li><a href="https://lanky.top/"><embed src="https://cdn.jsdelivr.net/gh/DK01689/CDN@master/Lanky/img/home.svg" viewBox="0 0 660 342">首页</a></li>
+		<li><a href="https://lanky.top/edu"><embed src="https://cdn.jsdelivr.net/gh/DK01689/CDN@master/Lanky/img/edu.svg" viewBox="0 0 660 342">教育</a></li>
+		<li><a href="https://lanky.top/apply"><embed src="https://cdn.jsdelivr.net/gh/DK01689/CDN@master/Lanky/img/apply.svg" viewBox="0 0 660 342">应用</a></li>
+		<li><a href="https://lanky.top/laboratory"><embed src="https://cdn.jsdelivr.net/gh/DK01689/CDN@master/Lanky/img/laboratory.svg" viewBox="0 0 660 342">实验</a></li>
+		</ul>
+		</div>
+		</div>
+	<div id="weather">
+	<iframe width="420" scrolling="no" height="45" frameborder="0" allowtransparency="true" src="https://i.tianqi.com?c=code&id=12&color=%23FFFFFF&icon=1&num=3&site=12"></iframe>
+	</div>
+	<div id="search" style="min-height: 100px;">
+<iframe src="https://go.lanky.top/helper/search" style="display: ;height: 120px;position: absolute;margin: 0 auto;width: 100%; left: 0;" scrolling="no" width="100%" frameborder="0" seamless="">
+	</iframe>
+	</div>
+	<div class="box">
+		<ul id="Sidemenu" class="left sidemenu" style="position: static; top: 0px;">
+		<li style="font-size: 15px;font-weight: bold;"><a href="#ll">A</a></li>
+		<li><a href="#0">0</a></li>
+		<li><a href="#1">1</a></li>
+		<li><a href="#2">2</a></li>
+		<li><a href="#3">3</a></li>
+		<li><a href="#4">4</a></li>
+		<li style="font-size: 15px;font-weight: bold;"><a href="#ol">B</a></li>
+		<li><a href="#5">5</a></li>
+		</ul>
+		<div style="display: none;" id="rocket-to-top">
+    <div style="opacity:0;display: block;" class="level-2"></div>
+    <div class="level-3"><div id="up"><span class="up">顶部</span></div></div>
+</div>
+	<div class="content">
+		<h3 id="A"> <span>A</span></h3>
+		<div class="link-main">
+		<h4>0000000</h4>
+		<div class="linkbox">
+		<ul class="links clearfix">
+			<li><a href="" target="_blank"></a></li>
+			<li><a href="" target="_blank"></a></li>
+			<li><a href="" target="_blank"></a></li>
+			<li><a href="" target="_blank"></a></li>
+			<li><a href="" target="_blank"></a></li>
+			<li><a href="" target="_blank"></a></li>
+			<li><a href="" target="_blank"></a></li>
+			<li><a href="" target="_blank"></a></li>
+			<li><a href="" target="_blank"></a></li>
+			</ul>
+		</div>		
+	</div>
+			<div class="hr"></div>
+		
+			<h3 id="2"> <span>2</span></h3>
+		<div class="link-main">
+		<h4>000000</h4>
+		<div class="linkbox">
+		<ul class="links clearfix">
+			<li><a href="" target="_blank"></a></li>
+			<li><a href="" target="_blank"></a></li>
+			<li><a href="" target="_blank"></a></li>
+			<li><a href="" target="_blank"></a></li>
+			<li><a href="" target="_blank"></a></li>
+			<li><a href="" target="_blank"></a></li>
+			<li><a href="" target="_blank"></a></li>
+			<li><a href="" target="_blank"></a></li>
+			<li><a href="" target="_blank"></a></li>
+			</ul>
+		</div>
+			</div>
+	</div>
+		</div>
+	<div class="clearfix"></div>
+	<div class="hr"></div>
+	<div class="tailtext" style="margin:0 auto;"><a href="https://go.lanky.top/Lanky/lanky#lankys" target="_blank">蓝奇网提供站后服务</a> | 关于蓝奇 交流联系 提交收录 意见反馈 网站举报 免责声明 支持我们
+	</div>
+		<div class="tailtext" style="margin:0 auto;">Copyright © 2020 Lanky.top All Rights Reserved.   蓝奇网 版权所有
+		<script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1279171634'%3E%3C/span%3E%3Cscript src='https://s9.cnzz.com/z_stat.php%3Fid%3D1279171634%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
+		</div>
+	</div>
+</body>
+</html>

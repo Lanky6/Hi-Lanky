@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>蓝奇导航 - 加速科学上网冲浪</title>
+<meta name="keywords" content="网址导航">
+<meta name="description" content="看世界用蓝奇导航，加速科学上网冲浪。">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/Lanky6/CDN@master/Lanky/img/favicon.ico">
+	
+</head>
+
+<body>
+
+<script type="text/javascript">
+　　var type = navigator.appName;
+　　if (type == "Netscape"){
+    　　var lang = navigator.language;//获取浏览器配置语言，支持非IE浏览器
+　　}else{
+    　　var lang = navigator.userLanguage;//获取浏览器配置语言，支持IE5+ == navigator.systemLanguage
+　　};
+　　var lang = lang.substr(0, 2);//获取浏览器配置语言前两位
+　　if (lang == "zh"){
+   　　 window.location.replace('https://lanky.top/zh-cn/');
+　　    //window.location.replace('url');//中文编码时打开链接
+　　}else{//其他语言编码时打开以下链接
+   　　 window.location.replace('https://lanky.top/en-us/');
+　　};
+</script>
+</body>
+</html>
